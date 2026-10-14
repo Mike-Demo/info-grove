@@ -15,6 +15,13 @@
       "when": 1791937571887,
       "tag": "0001_media_storage_policies",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1791937650182,
+      "tag": "0002_tighten_access_rules",
+      "breakpoints": true
     }
   ]
 }
