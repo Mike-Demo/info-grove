@@ -1173,6 +1173,10 @@ export type Database = {
         }
         Returns: boolean
       }
+      is_public_record: {
+        Args: { _published_at: string; _scheduled_at: string; _status: string }
+        Returns: boolean
+      }
       place_order: {
         Args: { _address: Json; _email: string; _lines: Json; _name: string }
         Returns: Json
